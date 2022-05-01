@@ -86,8 +86,9 @@ Allowing this gem to manage the target ruby version means you can switch to a di
 
 ## NewCops: enable
 
-If you want to use this you'll have to upgrade to Ruby >= 2.4 and use the appropriate sibling gem, e.g. [`rubocop-ruby2_4`][2.4].
-[2.4]: https://github.com/rubocop-semver/rubocop-ruby2_4
+If you want to use this you'll have to upgrade to Ruby >= 2.4 and use the appropriate sibling gem, e.g. [`rubocop-ruby2_4`][2-4].
+
+[2-4]: https://github.com/rubocop-semver/rubocop-ruby2_4
 
 ## Development
 
