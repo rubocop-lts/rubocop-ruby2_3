@@ -23,7 +23,7 @@ platforms :mri do
     gem "rubocop-packaging", "0.4.0", require: false
     gem "rubocop-performance", "~> 1.5.2", require: false
     gem "rubocop-rake", "~> 0.5.1", require: false
-    gem "rubocop-rspec", require: false
+    gem "rubocop-rspec", "~> 1.38.1", require: false
     gem "rubocop-thread_safety", "~> 0.4", require: false
   end
 end
