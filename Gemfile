@@ -14,7 +14,6 @@ gem "rspec", "~> 3.0"
 ruby_version = Gem::Version.new(RUBY_VERSION)
 minimum_version = ->(version, engine = "ruby") { ruby_version >= Gem::Version.new(version) && RUBY_ENGINE == engine }
 linting = minimum_version.call("2.3")
-debugging = minimum_version.call("2.3")
 
 gem "pry", platforms: %i[mri jruby]
 
@@ -27,14 +26,4 @@ platforms :mri do
     gem "rubocop-rspec", require: false
     gem "rubocop-thread_safety", "~> 0.4", require: false
   end
-  if debugging
-    # Add `byebug` to your code where you want to drop to REPL
-    gem "byebug"
-    gem "pry-byebug"
-  end
-end
-
-platforms :jruby do
-  # Add `binding.pry` to your code where you want to drop to REPL
-  gem "pry-debugger-jruby"
 end
