@@ -179,10 +179,6 @@ spec.add_dependency "rubocop-ruby2_3", "~> 0.1"
 
 [climate_maintainability]: https://codeclimate.com/github/rubocop-semver/rubocop-ruby2_3/maintainability
 
-[climate_coverage]: https://codeclimate.com/github/rubocop-semver/rubocop-ruby2_3/test_coverage
-
-[codecov_coverage]: https://codecov.io/gh/rubocop-semver/rubocop-ruby2_3
-
 [code_triage]: https://www.codetriage.com/rubocop-semver/rubocop-ruby2_3
 
 [blogpage]: http://www.railsbling.com/tags/rubocop-ruby2_3/

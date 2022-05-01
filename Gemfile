@@ -13,7 +13,6 @@ gem "rspec", "~> 3.0"
 
 ruby_version = Gem::Version.new(RUBY_VERSION)
 minimum_version = ->(version, engine = "ruby") { ruby_version >= Gem::Version.new(version) && RUBY_ENGINE == engine }
-coverage = minimum_version.call("2.3")
 linting = minimum_version.call("2.3")
 debugging = minimum_version.call("2.3")
 
@@ -27,12 +26,6 @@ platforms :mri do
     gem "rubocop-rake", "~> 0.5.1", require: false
     gem "rubocop-rspec", require: false
     gem "rubocop-thread_safety", "~> 0.4", require: false
-  end
-  if coverage
-    gem "codecov", "0.1.20"
-    gem "simplecov", "0.17.1", require: false
-    gem "simplecov-cobertura" # XML for Jenkins
-    gem "simplecov-lcov", "~> 0.8", require: false
   end
   if debugging
     # Add `byebug` to your code where you want to drop to REPL
