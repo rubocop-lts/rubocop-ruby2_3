@@ -39,9 +39,9 @@ jobs:
         bundler:
           - latest
         ruby:
+          # NOTE: Underlying version of Rubocop for Ruby 2.3 will not work with Ruby 3.1
           - "2.7"
           - "3.0"
-          - "3.1"
 
     runs-on: ubuntu-latest
     continue-on-error: ${{ matrix.experimental || endsWith(matrix.ruby, 'head') }}
