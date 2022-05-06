@@ -1,9 +1,9 @@
 <p align="center">
     <a href="https://rubocop.org#gh-light-mode-only"  target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_3/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="PNG Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG Rubocop Logo, Gil Barbara, CC0">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_3/raw/main/docs/images/logo/rubocop-light.svg?raw=true" alt="PNG RuboCop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG RuboCop Logo, Gil Barbara, CC0">
     </a>
     <a href="https://rubocop.org#gh-dark-mode-only"  target="_blank" rel="noopener">
-      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_3/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG Rubocop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG Rubocop Logo, Roberto Huertas, MIT">
+      <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_3/raw/main/docs/images/logo/rubocop-dark.svg?raw=true" alt="SVG RuboCop Logo, Copyright (c) 2014 Bozhidar Batsov, MIT License, SVG RuboCop Logo, Roberto Huertas, MIT">
     </a>
     <a href="https://www.ruby-lang.org/" target="_blank" rel="noopener">
       <img width="120px" src="https://github.com/rubocop-semver/rubocop-ruby2_3/raw/main/docs/images/logo/ruby-logo.svg?raw=true" alt="Yukihiro Matsumoto, Ruby Visual Identity Team, CC BY-SA 2.5">
@@ -74,7 +74,7 @@ This has the same effect as you declaring the following in your `.rubocop.yml`:
 AllCops:
   # remove if already present in your `.rubocop.yml` to gain the full benefit of this gem!
   TargetRubyVersion: 2.3
-  # The sibling gems for newer versions of Ruby support the NewCops directive as soon as Rubocop adds it.
+  # The sibling gems for newer versions of Ruby support the NewCops directive as soon as RuboCop adds it.
   # NewCops: enable
 ```
 
