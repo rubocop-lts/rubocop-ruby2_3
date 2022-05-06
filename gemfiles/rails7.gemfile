@@ -2,7 +2,6 @@
 
 source "https://rubygems.org"
 
-gem "rails", "~> 5.2.0"
-gem "rubocop-rails", "2.5.2"
+gem "rails", "~> 7.0"
 
 eval_gemfile "../Gemfile"
