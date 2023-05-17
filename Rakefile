@@ -6,17 +6,47 @@
   rspec/core/rake_task
 ].each { |f| require f }
 
-RSpec::Core::RakeTask.new(:spec)
-desc "alias spec => test"
+RSpec::Core::RakeTask.new(:spec) do |spec|
+  spec.pattern = FileList["spec/**/*_spec.rb"]
+end
+desc "alias test task to spec"
 task test: :spec
 
 begin
-  require "rubocop/rake_task"
-  RuboCop::RakeTask.new
+  require "yard"
+
+  YARD::Rake::YardocTask.new do |t|
+    t.files = [
+      # Splats (alphabetical)
+      "lib/**/*.rb",
+      "sig/**/*.rbs",
+      # Files (alphabetical)
+      "CHANGELOG.md",
+      "CODE_OF_CONDUCT.md",
+      "CONTRIBUTING.md",
+      "LICENSE.txt",
+      "README.md",
+      "rubocop-lts.yml",
+      "SECURITY.md"
+    ]
+    t.options = ["-m", "markdown"] # optional
+  end
 rescue LoadError
-  task :rubocop do
-    warn "RuboCop is disabled on #{RUBY_ENGINE} #{RUBY_VERSION}"
+  task :yard do
+    warn "NOTE: yard isn't installed, or is disabled for #{RUBY_VERSION} in the current environment"
   end
 end
 
-task default: %i[spec rubocop]
+defaults = %i[test]
+
+# Internally this works
+#   load "lib/rubocop/ruby2_3/tasks.rake"
+# But ...
+#   externally it won't, so in other internal projects' Rakefiles we:
+require "rubocop/ruby2_3"
+
+Rubocop::Ruby23.install_tasks
+
+defaults << :rubocop_gradual
+
+task default: defaults

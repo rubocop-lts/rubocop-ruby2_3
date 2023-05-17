@@ -16,18 +16,106 @@
     </a>
 </p>
 
-# Rubocop::Ruby23
+---
+
+NOTE: You might be interested in [`rubocop-lts`][rlts] which sits as a higher level than this gem, and can keep pace with whatever version of Ruby you happen to be on.
+
+| Gem Name                      | Version                             | Downloads                                                            | CI                                                                    | Activity                                                                                                                                              |
+|-------------------------------|-------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [`rubocop-lts`][⛳️lts-gh]     | [![Gem Version][⛳️lts-vi]][⛳️lts-g] | [![Total DL][🖇️lts-dti]][⛳️lts-g] [![DL Rank][🏘️lts-rti]][⛳️lts-g] | [![Current][🚎lts-cwfi]][🚎lts-cwf]                                   | [![Open Issues][📗lts-ioi]][📗lts-io] [![Closed Issues][🚀lts-ici]][🚀lts-ic] [![Open PRs][💄lts-poi]][💄lts-po] [![Closed PRs][👽lts-pci]][👽lts-pc] |
+| [`rubocop-ruby2_3`][⛳️ini-gh] | [![Gem Version][⛳️ini-vi]][⛳️ini-g] | [![Total DL][🖇️ini-dti]][⛳️ini-g] [![DL Rank][🏘️ini-rti]][⛳️ini-g] | [![Current][🚎ini-cwfi]][🚎ini-cwf] [![Heads][🖐ini-hwfi]][🖐ini-hwf] | [![Open Issues][📗ini-ioi]][📗ini-io] [![Closed Issues][🚀ini-ici]][🚀ini-ic] [![Open PRs][💄ini-poi]][💄ini-po] [![Closed PRs][👽ini-pci]][👽ini-pc] |
+
+<!-- columnar badge #s for Project Health table:
+⛳️
+🖇
+🏘
+🚎
+🖐
+🧮
+📗
+🚀
+💄
+👽
+-->
+
+[⛳️lts-vi]: http://img.shields.io/gem/v/rubocop-lts.svg
+[🖇️lts-dti]: https://img.shields.io/gem/dt/rubocop-lts.svg
+[🏘️lts-rti]: https://img.shields.io/gem/rt/rubocop-lts.svg
+[🚎lts-cwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml
+[🚎lts-cwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/current.yml/badge.svg
+[🖐lts-hwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml
+[🖐lts-hwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/heads.yml/badge.svg
+[🧮lts-lwf]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml
+[🧮lts-lwfi]: https://github.com/rubocop-lts/rubocop-lts/actions/workflows/legacy.yml/badge.svg
+[📗lts-io]: https://github.com/rubocop-lts/rubocop-lts/issues
+[📗lts-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-lts
+[🚀lts-ic]: https://github.com/rubocop-lts/rubocop-lts/issues?q=is%3Aissue+is%3Aclosed
+[🚀lts-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-lts
+[💄lts-po]: https://github.com/rubocop-lts/rubocop-lts/pulls
+[💄lts-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-lts
+[👽lts-pc]: https://github.com/rubocop-lts/rubocop-lts/pulls?q=is%3Apr+is%3Aclosed
+[👽lts-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-lts
+[⛳️lts-g]: https://rubygems.org/gems/rubocop-lts
+[⛳️lts-gh]: https://github.com/rubocop-lts/rubocop-lts
+
+[⛳️ini-vi]: http://img.shields.io/gem/v/rubocop-ruby2_3.svg
+[🖇️ini-dti]: https://img.shields.io/gem/dt/rubocop-ruby2_3.svg
+[🏘️ini-rti]: https://img.shields.io/gem/rt/rubocop-ruby2_3.svg
+[🚎ini-cwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/current.yml
+[🚎ini-cwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/current.yml/badge.svg
+[🖐ini-hwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/heads.yml
+[🖐ini-hwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/heads.yml/badge.svg
+[🧮ini-lwf]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/legacy.yml
+[🧮ini-lwfi]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions/workflows/legacy.yml/badge.svg
+[📗ini-io]: https://github.com/rubocop-lts/rubocop-ruby2_3/issues
+[📗ini-ioi]: https://img.shields.io/github/issues-raw/rubocop-lts/rubocop-ruby2_3
+[🚀ini-ic]: https://github.com/rubocop-lts/rubocop-ruby2_3/issues?q=is%3Aissue+is%3Aclosed
+[🚀ini-ici]: https://img.shields.io/github/issues-closed-raw/rubocop-lts/rubocop-ruby2_3
+[💄ini-po]: https://github.com/rubocop-lts/rubocop-ruby2_3/pulls
+[💄ini-poi]: https://img.shields.io/github/issues-pr/rubocop-lts/rubocop-ruby2_3
+[👽ini-pc]: https://github.com/rubocop-lts/rubocop-ruby2_3/pulls?q=is%3Apr+is%3Aclosed
+[👽ini-pci]: https://img.shields.io/github/issues-pr-closed/rubocop-lts/rubocop-ruby2_3
+[⛳️ini-g]: https://rubygems.org/gems/rubocop-ruby2_3
+[⛳️ini-gh]: https://github.com/rubocop-lts/rubocop-ruby2_3
+
+# 🦾 Rubocop::Ruby23
 
 See the intro [blog post](https://dev.to/pboling/rubocop-ruby-matrix-gems-nj)!
 
-This gem requires no other gems. It depends on `rubocop`, but does not `require 'rubocop'`.
+This gem configures many gems for you:
+
+- rubocop
+- rubocop-gradual
+- rubocop-md
+- rubocop-rake
+- rubocop-shopify
+- rubocop-thread_safety
+- standard
+- standard-performance (incl. rubocop-performance)
+- standard-custom
+- standard-rubocop-lts (ruby version-specific rules)
+
+And optionally, if you are using RSpec:
+
+- rubocop-rspec
+
+And optionally, if you are building a RubyGem:
+
+- rubocop-packaging
+
+And optionally, if you are building a Rails app:
+
+- standard-rails (incl. rubocop-rails)
+- betterlint
 
 Awareness of `rubocop`'s lack of [SemVer][semver] adherence isn't evenly dispersed in the Ruby community.
 
-The Rubocop team [has real reasons](https://github.com/semver/semver/issues/317)
-for [not following SemVer](https://github.com/rubocop/rubocop/issues/4243), but if you've
-found this project their reasons likely weigh less, in your context (e.g. running `rubocop` from command line), than
-what brought you here.
+The RuboCop team [has reasons](https://github.com/semver/semver/issues/317)
+for [not following SemVer](https://github.com/rubocop/rubocop/issues/4243).
+
+NOTE: They think they are following SemVer,
+but their interpretation differs from mine, and seems to differ from the
+[intent of SemVer's creator][major-versions-not-sacred].
 
 <p align="left">
     <a href="https://metaredux.com/posts/2022/04/21/rubocop-turns-10.html" target="_blank" rel="noopener">
@@ -36,53 +124,94 @@ what brought you here.
 </p>
 
 The purpose of this gem is to constrain the `rubocop` dependency of a project in
-a [SemVer compliant](https://semver.org/) (Semantic Versioning) way that aligns with the the desired minimum
-compatible/supported Ruby version.
+a [SemVer compliant][semver]
+(Semantic Versioning, [Major Versions are Not Sacred][major-versions-not-sacred])
+way that aligns with its desired minimum compatible/supported Ruby version.
+Secondary purpose is to provide default configurations for a bevy of RuboCop-related plugins.
 
-## Ruby Version Support Matrix
+## 💎 Ruby Version Support
 
-Adding this gem will facilitate the best practice of adding a `~> ` version constrained `rubocop` dependency, while
-minimizing the risk of a rubocop minor / patch upgrade breaking the build. See the
-official [compatibility matrix][rubocop-matrix] for `rubocop`.
+This gem facilitates equivalent of adding a `~> ` version constrained `rubocop`(-ish +more) dependency,
+thus minimizing the risk of a rubocop minor / patch upgrade breaking the build.
 
-`rubocop-ruby2_3` (this gem) will install on any version of Ruby >= 2.3, and can be used to analyze code intended to support Ruby >= 2.3.
+### What's that you say?
 
-* 🧊 - Install on Ruby `<version>`
-* 🏃‍ - Will Execute on Ruby `<version>`
-* 🪷 - Will not execute correctly on Ruby `<version>`
-* 🛠 - Lint code with Ruby `<version>` syntax as the target
+This gem will install a suite of tools that will **analyze & lint code** intended to support any version of Ruby >= 2.0.
 
-| gem                     | 1.8.7         | 1.9.3     | 2.0       | 2.1       | 2.2       | 2.3       | 2.4       | 2.5       | 2.6       | 2.7       | 3.0       | 3.1       | ruby-head | jruby-head |
-|-------------------------|---------------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|-----------|------------|
-| [rubocop-ruby1_9][rr19] | [🛠][what1_8] | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_0][rr20] |               |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_1][rr21] |               |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_2][rr22] |               |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊‍ 🪷    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_3][rr23] |               |           |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_4][rr24] |               |           |           |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷     | 🧊 🪷     | 🧊 🪷      |
-| [rubocop-ruby2_5][rr25] |               |           |           |           |           |           |           | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷      |
-| [rubocop-ruby2_6][rr26] |               |           |           |           |           |           |           | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🪷      |
-| [rubocop-ruby2_7][rr27] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍     |
-| [rubocop-ruby3_0][rr30] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍    | 🧊 🏃‍     |
-| [rubocop-ruby3_1][rr31] |               |           |           |           |           |           |           | 🛠        | 🛠        | 🛠        | 🛠        | 🧊 🏃‍ 🛠 | 🧊 🏃‍    | 🧊 🏃‍     |
+This gem helps insulate projects from RuboCop churn by enshrining many conventions
+that have been shown over years to reduce problems.
 
-[rr19]: https://github.com/rubocop-lts/rubocop-ruby1_9
-[rr20]: https://github.com/rubocop-lts/rubocop-ruby2_0
-[rr21]: https://github.com/rubocop-lts/rubocop-ruby2_1
-[rr22]: https://github.com/rubocop-lts/rubocop-ruby2_2
-[rr23]: https://github.com/rubocop-lts/rubocop-ruby2_3
-[rr24]: https://github.com/rubocop-lts/rubocop-ruby2_4
-[rr25]: https://github.com/rubocop-lts/rubocop-ruby2_5
-[rr26]: https://github.com/rubocop-lts/rubocop-ruby2_6
-[rr27]: https://github.com/rubocop-lts/rubocop-ruby2_7
-[rr30]: https://github.com/rubocop-lts/rubocop-ruby3_0
-[rr31]: https://github.com/rubocop-lts/rubocop-ruby3_1
-[what1_8]: https://github.com/rubocop-lts/rubocop-ruby1_9#what-about-ruby-18
-[rubocop-matrix]: https://github.com/rubocop/rubocop/blob/master/docs/modules/ROOT/pages/compatibility.adoc#support-matrix
+#### Background
+
+Each [spring `rubocop` drops][rubocop-support-matrix] the ability to **install** and **run** `rubocop` on an EOL'd Ruby.
+Eventually `rubocop` will drop the ability to **analyze code** intended to support an EOL'd Ruby,
+as they already have for Ruby 1.9. RuboCop has never run properly on Ruby 1.8.
+This gem, via [standard (Standard Ruby)][standardrb], allows RuboCop to analyze Ruby 2.3 code,
+by turning off certain rules that only apply to later Rubies.
+
+When the `rubocop` team makes _any_ of these changes they
+[only bump the minor version][rubocop-versioning] of RuboCop,
+in violation of SemVer ([they disagree][rubocop-release-policy]).
+
+In other words, RuboCop intentionally does not bump the major version when they drop
+_analysis_, _runtime_, or _installation_ support for a given version of Ruby.
+
+This is a primary _raison d’être_ for this project.
+To get a better understanding of how SemVer is intended to work read this article from the creator of SemVer:
+
+- ["Major Version Numbers are Not Sacred"][major-versions-not-sacred]!
+
+[rubocop-support-matrix]: https://docs.rubocop.org/rubocop/compatibility.html#support-matrix
+[rubocop-versioning]: https://docs.rubocop.org/rubocop/versioning.html
+[rubocop-release-policy]: https://docs.rubocop.org/rubocop/versioning.html#release-policy
+[major-versions-not-sacred]: https://tom.preston-werner.com/2022/05/23/major-version-numbers-are-not-sacred.html
+[standardrb]: https://github.com/standardrb/standard
+
+### 👪 A Gem Family
+
+The `rubocop-lts` family of gems has a version supporting any version of Ruby you need.
+They can be used as development dependencies for libraries or applications.
+
+- [`rubocop-lts`][rlts]
+- [`standard-rubocop-lts`][stdrlts]
+- [`rubocop-ruby1_8`][rr18]
+- [`rubocop-ruby1_9`][rr19]
+- [`rubocop-ruby2_0`][rr20]
+- [`rubocop-ruby2_1`][rr21]
+- [`rubocop-ruby2_2`][rr22]
+- [`rubocop-ruby2_3`][rr23]
+- [`rubocop-ruby2_4`][rr24]
+- [`rubocop-ruby2_5`][rr25]
+- [`rubocop-ruby2_6`][rr26]
+- [`rubocop-ruby2_7`][rr27]
+- [`rubocop-ruby3_0`][rr30]
+- [`rubocop-ruby3_1`][rr31]
+- [`rubocop-ruby3_2`][rr32]
+
+[rlts]: https://github.com/rubocop-lts/rubocop-lts#-how-to-untie-gorgons-knot
+[stdrlts]: https://github.com/rubocop-lts/standard-rubocop-lts
+[rr18]: https://gitlab.com/rubocop-lts/standard-rubocop-lts
+[rr19]: https://gitlab.com/rubocop-lts/rubocop-ruby1_9
+[rr20]: https://gitlab.com/rubocop-lts/rubocop-ruby2_0
+[rr21]: https://gitlab.com/rubocop-lts/rubocop-ruby2_1
+[rr22]: https://gitlab.com/rubocop-lts/rubocop-ruby2_2
+[rr23]: https://gitlab.com/rubocop-lts/rubocop-ruby2_3
+[rr24]: https://gitlab.com/rubocop-lts/rubocop-ruby2_4
+[rr25]: https://gitlab.com/rubocop-lts/rubocop-ruby2_5
+[rr26]: https://gitlab.com/rubocop-lts/rubocop-ruby2_6
+[rr27]: https://gitlab.com/rubocop-lts/rubocop-ruby2_7
+[rr30]: https://gitlab.com/rubocop-lts/rubocop-ruby3_0
+[rr31]: https://gitlab.com/rubocop-lts/rubocop-ruby3_1
+[rr32]: https://gitlab.com/rubocop-lts/rubocop-ruby3_2
 
 ## 🗿 Stable
 
-All releases of this gem are stable releases. The first version is `1.0.0`.
+All releases of this gem are stable releases.
+We do not release new versions for every release of `rubocop`,
+as this gem is tied to [standard (Standard Ruby)][standardrb].
+A typical release cycle for a gem in the `rubocop-lts` family is roughly every six months,
+though eventually analysis support for an old version of Ruby will be dropped.
+When that happens releases of the `rubocop-lts` gem for that version of Ruby will (mostly) cease.
 
 ## ✨ Installation
 
@@ -94,46 +223,89 @@ If bundler is not being used to manage dependencies, install the gem by executin
 
     $ gem install rubocop-ruby2_3
 
-## 🔧 Usage
+## 🔧 Basic Usage
 
-The following is optional.  We'll discuss why you might want to do this after you see what it does.
-
-Add to the top of your project's `.rubocop.yml` configuration file:
+If you are using Rails, building a Rubygem, or not using RSpec, see ["Advanced Usage"](#advanced-usage).
+Otherwise, if you using this in plain Ruby _and_ RSpec, you can add to the top of your project's `.rubocop.yml` configuration file:
 
 ```yaml
 inherit_gem:
   rubocop-ruby2_3: rubocop.yml
 ```
 
-This has the same effect as you declaring the following in your `.rubocop.yml`:
+Among _many_ other settings, this has the effect of declaring the following:
 
 ```yaml
 AllCops:
-  # remove if already present in your `.rubocop.yml` to gain the full benefit of this gem!
-  TargetRubyVersion: 2.3
-  # The sibling gems for newer versions of Ruby support the NewCops directive as soon as RuboCop adds it.
-  # NewCops: enable
+  NewCops: enable
 ```
 
-Let's talk about these settings.
+Let's talk about these settings. (TODO: Document some of the other settings!)
 
-### TargetRubyVersion
+### ⚙️ `NewCops: enable`
 
-Allowing this gem to manage the target ruby version means you can switch to a different gem within the family when you upgrade to the next version of Ruby, and have nothing else to change.  A single line in the `Gemfile`, and you are done.
+Upgrades to the latest RuboCop can include all kinds of changes, including removing support for the version of Ruby your project uses, or adding a cop that may not work with some of your syntax (e.g. [some use cases of 'module_function`](https://github.com/rubocop/rubocop/issues/5953#issuecomment-805921993)).  Accepting new cops arriving in a new version of RuboCop can feel risky, especially when it doesn't follow SemVer.
 
-### NewCops: enable
+But this gem shoehorns RuboCop into SemVer, under the watchful eye of [standard (Standard Ruby)][standardrb]... so `NewCops` is now safe(r)!  If you use a dependency greening tool like GitHub's `dependabot`, or the excellent alternatives [depfu](https://depfu.com/), and [`renovate`](https://www.whitesourcesoftware.com/free-developer-tools/renovate/), then you can see the effect of a minor / major version bump in your CI Build!
 
-Commented out!  Setting does not exist in very old versions of rubocop that works with Ruby < 2.4.
+## Advanced Usage
 
-If you want to use this you'll have to upgrade to Ruby >= 2.4 and use the appropriate sibling gem, e.g. [`rubocop-ruby2_4`][2-4].
+### Linting Ruby + RSpec
 
-[2-4]: https://github.com/rubocop-lts/rubocop-ruby2_4
+```yaml
+inherit_gem:
+  rubocop-ruby2_3: rubocop-lts/ruby_rspec.yml
+  # Note: technically the above is the same as the "Basic Usage" below, so if specificity is not your jam:
+#  rubocop-ruby2_3: rubocop.yml
+```
 
-## Development
+### Linting Ruby w/o RSpec
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+```yaml
+inherit_gem:
+  rubocop-ruby2_3: rubocop-lts/ruby.yml
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+### Linting Rails + RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_3: rubocop-lts/rails_rspec.yml
+```
+
+#### Linting Rails w/o RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_3: rubocop-lts/rails.yml
+```
+
+#### Linting a RubyGem + RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_3: rubocop-lts/rubygem_rspec.yml
+```
+
+#### Linting a RubyGem w/o RSpec
+
+```yaml
+inherit_gem:
+  rubocop-ruby2_3: rubocop-lts/rubygem.yml
+```
+
+## 💻 Development
+
+After checking out the repo, run `bin/setup` to install dependencies.
+Then, run `rake spec` to run the tests w/ coverage,
+or `bin/rake` to run tests w/ coverage, and linting.
+You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+
+To install this gem onto your local machine, run `bundle exec rake install`.
+
+### 🚀 Release Instructions
+
+See [CONTRIBUTING.md][contributing].
 
 ## ⚡️ Contributing
 
@@ -148,8 +320,8 @@ Made with [contributors-img](https://contrib.rocks).
 ## 📄 License
 
 The gem is available as open source under the terms of
-the [MIT License][license] [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)][license-ref].
-See [LICENSE][license] for the official [Copyright Notice][copyright-notice-explainer].
+the [MIT License][license] [![License: MIT][license-img]][license-ref].
+See [LICENSE.txt][license] for the official [Copyright Notice][copyright-notice-explainer].
 
 <details>
   <summary>Project Logos (rubocop-ruby2_3)</summary>
@@ -158,7 +330,7 @@ See [docs/images/logo/README.txt][project-logos]
 </details>
 
 <details>
-  <summary>Organization Logo (rubocop-semver)</summary>
+  <summary>Organization Logo (rubocop-lts)</summary>
 
 Author: [Yusuf Evli][org-logo-author]
 Source: [Unsplash][org-logo-source]
@@ -172,13 +344,13 @@ License: [Unsplash License][org-logo-license]
 
 ### © Copyright
 
-* Copyright (c) 2022 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
-
-[copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
+* Copyright (c) 2022 - 2023 [Peter H. Boling][peterboling] of [Rails Bling][railsbling]
 
 ## 🤝 Code of Conduct
 
-Everyone interacting in the Rubocop::Ruby23 project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in this project's codebases, issue trackers, [chat rooms][🏘chat] and mailing lists is expected to follow the [code of conduct][🤝conduct].
+
+[🤝conduct]: https://gitlab.com/rubocop-lts/rubocop-ruby2_3/-/blob/main/CODE_OF_CONDUCT.md
 
 ## 📌 Versioning
 
@@ -193,63 +365,36 @@ the [Pessimistic Version Constraint][pvc] with two digits of precision.
 For example:
 
 ```ruby
-spec.add_dependency "rubocop-ruby2_3", "~> 1.0"
+spec.add_dependency "rubocop-ruby2_3", "~> 2.0"
 ```
 
-[copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
-
-[gh_discussions]: https://github.com/rubocop-lts/rubocop-ruby2_3/discussions
-
-[conduct]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/CODE_OF_CONDUCT.md
-
-[contributing]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/CONTRIBUTING.md
-
-[security]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/SECURITY.md
-
-[license]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/LICENSE.txt
-
-[license-ref]: https://opensource.org/licenses/MIT
-
-[semver]: http://semver.org/
-
-[pvc]: http://guides.rubygems.org/patterns/#pessimistic-version-constraint
-
-[railsbling]: http://www.railsbling.com
-
-[peterboling]: http://www.peterboling.com
-
 [aboutme]: https://about.me/peter.boling
-
-[angelme]: https://angel.co/peter-boling
-
-[coderme]:http://coderwall.com/pboling
-
-[followme-img]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow
-
-[tweetme]: http://twitter.com/galtzo
-
-[politicme]: https://nationalprogressiveparty.org
-
-[documentation]: https://rubydoc.info/github/rubocop-lts/rubocop-ruby2_3/main
-
-[source]: https://github.com/rubocop-lts/rubocop-ruby2_3/
-
 [actions]: https://github.com/rubocop-lts/rubocop-ruby2_3/actions
-
-[issues]: https://github.com/rubocop-lts/rubocop-ruby2_3/issues
-
-[climate_maintainability]: https://codeclimate.com/github/rubocop-lts/rubocop-ruby2_3/maintainability
-
-[code_triage]: https://www.codetriage.com/rubocop-lts/rubocop-ruby2_3
-
+[angelme]: https://angel.co/peter-boling
 [blogpage]: http://www.railsbling.com/tags/rubocop-ruby2_3/
-
-[rubygems]: https://rubygems.org/gems/rubocop-ruby2_3
-
-[chat]: https://gitter.im/rubocop-lts/rubocop-ruby2_3?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge
-
-[maintenancee_policy]: https://guides.rubyonrails.org/maintenance_policy.html#security-issues
-
-[liberapay_donate]: https://liberapay.com/pboling/donate
-
+[codecov_coverage]: https://codecov.io/gh/rubocop-lts/rubocop-ruby2_3
+[code_triage]: https://www.codetriage.com/rubocop-lts/rubocop-ruby2_3
+[🏘chat]: https://gitter.im/rubocop-lts/community
+[climate_coverage]: https://codeclimate.com/github/rubocop-lts/rubocop-ruby2_3/test_coverage
+[climate_maintainability]: https://codeclimate.com/github/rubocop-lts/rubocop-ruby2_3/maintainability
+[copyright-notice-explainer]: https://opensource.stackexchange.com/questions/5778/why-do-licenses-such-as-the-mit-license-specify-a-single-year
+[conduct]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/CODE_OF_CONDUCT.md
+[contributing]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/CONTRIBUTING.md
+[devto]: https://dev.to/galtzo
+[documentation]: https://rubydoc.info/github/rubocop-lts/rubocop-ruby2_3/main
+[followme]: https://img.shields.io/twitter/follow/galtzo.svg?style=social&label=Follow
+[gh_discussions]: https://github.com/rubocop-lts/rubocop-ruby2_3/discussions
 [gh_sponsors]: https://github.com/sponsors/pboling
+[issues]: https://github.com/rubocop-lts/rubocop-ruby2_3/issues
+[liberapay_donate]: https://liberapay.com/pboling/donate
+[license]: LICENSE.txt
+[license-ref]: https://opensource.org/licenses/MIT
+[license-img]: https://img.shields.io/badge/License-MIT-green.svg
+[peterboling]: http://www.peterboling.com
+[pvc]: http://guides.rubygems.org/patterns/#pessimistic-version-constraint
+[railsbling]: http://www.railsbling.com
+[rubygems]: https://rubygems.org/gems/rubocop-ruby2_3
+[security]: https://github.com/rubocop-lts/rubocop-ruby2_3/blob/main/SECURITY.md
+[semver]: http://semver.org/
+[source]: https://github.com/rubocop-lts/rubocop-ruby2_3/
+[tweetme]: http://twitter.com/galtzo

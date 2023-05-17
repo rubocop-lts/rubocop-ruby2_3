@@ -6,12 +6,33 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 ### Added
-
 ### Changed
-
 ### Fixed
-
 ### Removed
+
+## [2.0.0] 2023-04-17
+### Added
+- Configs for:
+  - rubocop
+  - rubocop-gradual
+  - rubocop-md
+  - rubocop-rake
+  - rubocop-shopify
+  - rubocop-thread_safety
+  - standard
+  - standard-performance
+  - standard-custom
+  - standard-rubocop-lts
+- And optionally, if you are using RSpec:
+  - rubocop-rspec
+- And optionally, if you are building a RubyGem:
+  - rubocop-packaging
+- And optionally, if you are building a Rails app:
+  - betterlint
+  - standard-rails
+- version_gem
+### Removed
+- Support for Ruby <= 2.6. Minimum Ruby Version is now 2.7
 
 ## [1.0.3] 2022-05-23
 ### Added
@@ -31,7 +52,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 * Initial release
 
-[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v1.0.3...HEAD
+[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.0...HEAD
+[2.0.0]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v1.0.3...v2.0.0
 [1.0.3]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v1.0.2...v1.0.3
 [1.0.2]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v1.0.1...v1.0.2
 [1.0.1]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v1.0.0...v1.0.1
