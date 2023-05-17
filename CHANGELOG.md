@@ -10,7 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
-## [2.0.0] 2023-04-17
+## [2.0.0] 2023-05-17
 ### Added
 - Configs for:
   - rubocop
