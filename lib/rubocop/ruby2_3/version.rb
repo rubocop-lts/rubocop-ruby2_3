@@ -3,7 +3,7 @@
 module Rubocop
   module Ruby23
     module Version
-      VERSION = "2.0.1"
+      VERSION = "2.0.2"
     end
   end
 end
