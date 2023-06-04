@@ -12,4 +12,4 @@
 #     rubocop-ruby2_3: rubocop.yml # for the ruby + rspec
 
 inherit_from:
-  - rubocop-lts/ruby_rspec.yml
+  - rubocop-lts/rubygem_rspec.yml
