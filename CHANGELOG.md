@@ -10,6 +10,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Fixed
 ### Removed
 
+## [2.0.5] 2023-06-13
+### Changed
+- Moved development dependencies out of gemspec
+- rubocop to 1.52.1
+- rubocop-shopify to 2.14
+- standard-custom to 1.0.1
+- standard-rubocop-lts to 1.0.7
+- version_gem to 1.1.3
+### Fixed
+- rubocop/rails.yml config
+  - betterlint integration
+  - standard-rails integration
+- bin/pry now pre-loads this library
+
 ## [2.0.4] 2023-06-05
 ### Added
 - Dependencies
@@ -83,7 +97,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.4...HEAD
+[Unreleased]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.5...HEAD
+[2.0.5]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.4...v2.0.5
 [2.0.4]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.3...v2.0.4
 [2.0.3]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.2...v2.0.3
 [2.0.2]: https://github.com/rubocop-lts/rubocop-ruby2_3/compare/v2.0.1...v2.0.2
