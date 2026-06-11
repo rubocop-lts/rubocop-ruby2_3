@@ -1,7 +1,6 @@
 module Rubocop
   module Ruby23
     module Version
-      VERSION: String
       # See the writing guide of rbs: https://github.com/ruby/rbs#guides
     end
   end
