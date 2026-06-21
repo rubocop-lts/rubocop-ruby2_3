@@ -5,9 +5,9 @@ require "version_gem"
 
 # this gem
 require_relative "ruby2_3/version"
-# :nocov:
+# simplecov:disable
 require_relative "ruby2_3/railtie" if defined?(Rails::Railtie)
-# :nocov:
+# simplecov:enable
 
 module Rubocop
   # Namespace of this library
