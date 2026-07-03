@@ -3,7 +3,7 @@
 module Rubocop
   module Ruby23
     module Version
-      VERSION = "3.0.5"
+      VERSION = "3.0.6"
     end
     VERSION = Version::VERSION # Traditional Constant Location
   end
