@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.authors = ["Peter H. Boling", "Annibelle Boling"]
   spec.email = ["floss@galtzo.com"]
 
-  spec.summary = "🦾 Rules for Rubies: Rubocop + Standard + Betterlint + Gradual"
+  spec.summary = "🦾 Rules for Ruby 2.3: RuboCop + Standard + Betterlint + Gradual"
   spec.description = "🦾 Configure RuboCop + a bevy of friends to gradually lint Ruby 2.3 code"
   spec.homepage = "https://github.com/rubocop-lts/rubocop-ruby2_3"
   spec.licenses = ["MIT"]
