@@ -1,6 +1,6 @@
 {
-  "Gemfile:2352313975": [
-    [34, 23, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895]
+  "Gemfile:3675066150": [
+    [33, 23, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895]
   ],
   "Rakefile:2384589536": [
     [58, 70, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895],
@@ -29,7 +29,7 @@
   "gemfiles/modular/templating_local.gemfile:551647709": [
     [20, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
   ],
-  "rubocop-ruby2_3.gemspec:3730246267": [
+  "rubocop-ruby2_3.gemspec:4126784722": [
     [19, 32, 10, "Gemspec/RequiredRubyVersion: `required_ruby_version` and `TargetRubyVersion` (2.3, which may be specified in .rubocop.yml) should be equal.", 4072499287],
     [33, 24, 9, "Lint/LtsRuby/UnavailableMethod: Symbol#end_with? is unavailable before Ruby 2.7.", 308216808],
     [39, 16, 16, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 3147164910],
