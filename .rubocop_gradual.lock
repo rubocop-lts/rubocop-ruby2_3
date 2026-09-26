@@ -1,5 +1,5 @@
 {
-  "Gemfile:3675066150": [
+  "Gemfile:3948917049": [
     [33, 23, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895]
   ],
   "Rakefile:2384589536": [
@@ -9,8 +9,11 @@
   "bin/checksum:2799680372": [
     [7, 25, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895]
   ],
-  "gemfiles/modular/coverage_local.gemfile:1473148425": [
-    [19, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  "gemfiles/modular/coverage_local.gemfile:3588698406": [
+    [19, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [45, 101, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [49, 5, 5, "Lint/LtsRuby/UnavailableMethod: Thread#fetch is unavailable before Ruby 2.5.", 171106201],
+    [52, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
   ],
   "gemfiles/modular/documentation_local.gemfile:3227795705": [
     [19, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
@@ -18,7 +21,7 @@
   "gemfiles/modular/style_local.gemfile:3748826250": [
     [22, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
   ],
-  "gemfiles/modular/templating.gemfile:1510839640": [
+  "gemfiles/modular/templating.gemfile:1906616172": [
     [6, 39, 4, "Lint/LtsRuby/UnavailableMethod: Set#to_s is unavailable before Ruby 2.5.", 2087961426],
     [7, 28, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895],
     [8, 40, 4, "Lint/LtsRuby/UnavailableMethod: Set#to_s is unavailable before Ruby 2.5.", 2087961426],
@@ -26,10 +29,13 @@
     [11, 35, 4, "Lint/LtsRuby/UnavailableMethod: Set#to_s is unavailable before Ruby 2.5.", 2087961426],
     [11, 40, 6, "Lint/LtsRuby/UnavailableMethod: Pathname#empty? is unavailable before Ruby 2.4.", 1165546895]
   ],
-  "gemfiles/modular/templating_local.gemfile:551647709": [
-    [20, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
+  "gemfiles/modular/templating_local.gemfile:2617161738": [
+    [20, 27, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [96, 101, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002],
+    [100, 5, 5, "Lint/LtsRuby/UnavailableMethod: Thread#fetch is unavailable before Ruby 2.5.", 171106201],
+    [103, 31, 4, "Lint/LtsRuby/UnavailableMethod: Symbol#name is unavailable before Ruby 3.0.", 2087876002]
   ],
-  "rubocop-ruby2_3.gemspec:4126784722": [
+  "rubocop-ruby2_3.gemspec:1240554032": [
     [19, 32, 10, "Gemspec/RequiredRubyVersion: `required_ruby_version` and `TargetRubyVersion` (2.3, which may be specified in .rubocop.yml) should be equal.", 4072499287],
     [33, 24, 9, "Lint/LtsRuby/UnavailableMethod: Symbol#end_with? is unavailable before Ruby 2.7.", 308216808],
     [39, 16, 16, "Lint/LtsRuby/UnavailableMethod: Matrix/Vector#[]= is unavailable before Ruby 2.6.", 3147164910],
