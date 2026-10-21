@@ -2,11 +2,10 @@
   "gemfiles/modular/style_local.gemfile:2349284340": [
     [71, 23, 20, "Style/SafeNavigation: Use safe navigation (`&.`) instead of checking if an object exists before calling the method.", 1851388465]
   ],
-  "rubocop-ruby2_3.gemspec:834989612": [
+  "rubocop-ruby2_3.gemspec:1137697668": [
     [19, 32, 10, "Gemspec/RequiredRubyVersion: `required_ruby_version` and `TargetRubyVersion` (2.3, which may be specified in .rubocop.yml) should be equal.", 4072499287]
   ],
-  "spec/rubocop/ruby2_3/version_spec.rb:2832238900": [
-    [5, 1, 39, "RSpec/SpecFilePathFormat: Spec path should end with `rubocop/ruby23/version*_spec.rb`.", 1740745088],
-    [8, 3, 452, "RSpec/ExampleLength: Example has too many lines. [6/5]", 2002779837]
+  "spec/rubocop/ruby2_3/version_spec.rb:242239734": [
+    [5, 1, 39, "RSpec/SpecFilePathFormat: Spec path should end with `rubocop/ruby23/version*_spec.rb`.", 1740745088]
   ]
 }
